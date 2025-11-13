@@ -1,0 +1,139 @@
+[
+  {
+    "product_code": "DC25-56051",
+    "product_name": "Braided Oval Tray",
+    "size": "16.25 x 9.5 x 2.75",
+    "image": "images/DC25-56051.jpeg",
+    "weight_breakup": {
+      "iron_wire": 0.49,
+      "iron_sheet": 0.45
+    },
+    "export_details": {
+      "export_price_usd": 7.60,
+      "conversion_rate": 68.0,
+      "export_in_inr": 516.80,
+      "total_cost": 532.98,
+      "net_margin": -16.18,
+      "loss_on_export": -3.13,
+      "duty": 2.33,
+      "section_232": 0.26,
+      "reciprocal": 0.50,
+      "landed_cost_usd": 10.69
+    },
+    "packaging": {
+      "container_qty": 2,
+      "freight_per_pc": 1.03,
+      "master_carton_size": "17.75 x 11.0 x 7.0",
+      "wood_cft": 0.0,
+      "total_weight": 0.94
+    },
+    "cost_sheet": {
+      "raw_material_cost": [
+        { "item": "Iron Wire", "rate": "55/kg", "qty_kg": 0.486, "cost": 26.73 },
+        { "item": "Iron Sheet", "rate": "60/kg", "qty_kg": 0.446, "cost": 26.76 },
+        { "item": "Overheads @16%", "cost": 17.72 },
+        { "item": "Wastage", "cost": 5.29 }
+      ],
+      "manufacturing_cost": [
+        { "item": "Manufacturing", "cost": 52.00 }
+      ],
+      "finish_material_cost": [
+        { "item": "Pad/Polish", "cost": 35.00 },
+        { "item": "Nickle Plating", "cost": 45.75 },
+        { "item": "Electrophoretic Lacquer", "cost": 25.75 },
+        { "item": "Phosphating", "cost": 3.00 }
+      ],
+      "finish_labour_cost": [
+        { "item": "Plating Labour", "cost": 10.00 },
+        { "item": "Electrophoretic Lacquer Labour", "cost": 8.00 },
+        { "item": "Phosphating Labour", "cost": 2.75 }
+      ],
+      "packing_material_cost": [
+        { "item": "Sticker & Barcode", "cost": 1.50 },
+        { "item": "Corrugation", "cost": 18.00 }
+      ],
+      "packing_labour_cost": [
+        { "item": "Packing (Carton)", "cost": 0.75 },
+        { "item": "Packing Item", "cost": 5.50 }
+      ],
+      "freight_shipping_cost": [
+        { "item": "Loading/Unloading", "cost": 0.90 },
+        { "item": "Transportation @150", "cost": 1.67 }
+      ],
+      "other_expense": [
+        { "item": "Testing Charges", "cost": 2.00 }
+      ],
+      "overheads": [
+        { "item": "Commission @0.5%", "cost": 2.58 },
+        { "item": "Indirect + Defective", "cost": 79.56 },
+        { "item": "Bank & Depreciation", "cost": 45.08 },
+        { "item": "Staff + Factory + Power", "cost": 116.69 }
+      ],
+      "total_cost": 532.98
+    }
+  },
+
+
+
+  
+  {
+    "product_code": "5HSTXYRS104",
+    "product_name": "Silver Iridescent Glass Tree (Short)",
+    "size": "5.5 x 5.5 x 7.6",
+    "image": "images/5HSTXYRS104.jpeg",
+    "weight_breakup": {
+      "glass": 0.49
+    },
+    "export_details": {
+      "export_price_usd": 4.50,
+      "conversion_rate": 74.0,
+      "export_in_inr": 333.00,
+      "total_cost": 298.72,
+      "net_margin": 34.28,
+      "margin_percent": 10.29
+    },
+    "packaging": {
+      "container_qty": 2,
+      "freight_per_pc": 0.79,
+      "master_carton_size": "14.0 x 7.5 x 10.0",
+      "wood_cft": 0.0,
+      "total_weight": 0.49
+    },
+    "cost_sheet": {
+      "raw_material_cost": [
+        { "item": "Glass @140/kg", "qty_kg": 0.490, "cost": 68.60 },
+        { "item": "Breakage @15%", "cost": 10.29 },
+        { "item": "Glass Circle + Felt", "cost": 10.00 }
+      ],
+      "manufacturing_cost": [],
+      "finish_material_cost": [
+        { "item": "Glass Finish", "cost": 12.00 }
+      ],
+      "finish_labour_cost": [],
+      "packing_material_cost": [
+        { "item": "Sticker & Barcode", "cost": 5.00 },
+        { "item": "Corrugation", "cost": 28.00 },
+        { "item": "Velvet", "cost": 2.45 }
+      ],
+      "packing_labour_cost": [
+        { "item": "Glass Cleaning", "cost": 2.00 },
+        { "item": "Glass Checking", "cost": 1.75 },
+        { "item": "Packing (Carton)", "cost": 0.75 },
+        { "item": "Packing Item", "cost": 3.00 }
+      ],
+      "freight_shipping_cost": [
+        { "item": "Loading/Unloading", "cost": 0.50 },
+        { "item": "Transportation @2200", "cost": 18.92 }
+      ],
+      "other_expense": [
+        { "item": "Testing Charges", "cost": 10.00 }
+      ],
+      "overheads": [
+        { "item": "Indirect + Defective", "cost": 37.34 },
+        { "item": "Staff + Factory + Power", "cost": 62.73 },
+        { "item": "Bank & Depreciation", "cost": 25.39 }
+      ],
+      "total_cost": 298.72
+    }
+  }
+]
