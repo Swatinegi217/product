@@ -73,8 +73,197 @@
     "netMargin": -0.67,
     "status": "Loss"
   }
+},
+
+{
+  "productCode": "5HSTXYRS104",
+    "image": "images/5HSTXYRS104.jpeg",
+
+  "buyer": "Kohls",
+  "workingDate": "2025-04-30",
+  "name": "Silver Iridescent Glass Tree Short",
+  "size": "5.5 x 5.5 x 7.6",
+  "program": 193,
+  "material": "Glass",
+  "materialWeightKg": 0.49,
+  "finish": "Antique",
+  "container": {
+    "masterSize": "14.0 x 7.5 x 10.0",
+    "qty": 2,
+    "freightPerPieceUSD": 0.79
+  },
+  "costing": {
+    "rawMaterial": 88.89,
+    "finishingMaterial": 12.0,
+    "packingMaterial": 35.45,
+    "packingLabour": 7.5,
+    "freight": 19.42,
+    "testing": 10.0,
+    "overheads": 125.46,
+    "totalCost": 298.72
+  },
+  "export": {
+    "exportPriceUSD": 4.5,
+    "exchangeRate": 74,
+    "exportValueINR": 333.0,
+    "netMargin": 34.28,
+    "marginPercent": 10.29,
+    "status": "Profit"
+  }
+},
+{
+  "productCode": "DC25-44692",
+  "image": "images/DC25-44692.jpeg",
+  "buyer": "Target",
+  "department": "Target D-065",
+  "workingDate": "2023-01-12",
+  "name": "Aluminum Sail Boat Sculpture",
+  "size": "9.0 x 2.5 x 11.5",
+  "program": 675,
+  "material": "Aluminium",
+  "materialWeightKg": 0.5,
+  "finish": "Warm Gold",
+  "container": {
+    "masterSize": "10.5 x 9.25 x 12.75",
+    "qty": 3,
+    "freightPerPieceUSD": 0.62
+  },
+  "costing": {
+    "rawMaterial": 127.5,
+    "manufacturing": 45.0,
+    "finishingMaterial": 37.57,
+    "finishingLabour": 7.75,
+    "packingMaterial": 14.54,
+    "packingLabour": 4.25,
+    "freight": 1.53,
+    "testing": 5.0,
+    "overheads": 206.0,
+    "totalCost": 448.94
+  },
+  "export": {
+    "exportPriceUSD": 8.25,
+    "exchangeRate": 68,
+    "exportValueINR": 561.0,
+    "netMargin": 112.06,
+    "marginPercent": 19.98,
+    "status": "Profit"
+  }
+},
+{
+  "productCode": "DC25-65905",
+  "image": "images/DC25-65905.jpeg",
+  "buyer": "El Corte Ingles",
+  "workingDate": "2025-09-04",
+  "name": "Acacia Wood Metal Sugar Canister",
+  "size": "4.4 x 4.4 x 6.2",
+  "program": 17,
+  "materials": [
+    { "type": "Wood", "weightKg": 0.16 },
+    { "type": "Iron", "weightKg": 0.24 },
+    { "type": "Rubber", "weightKg": 0.01 }
+  ],
+  "finish": "Powder Coating",
+  "container": {
+    "masterSize": "11.0 x 11.0 x 7.75",
+    "qty": 4,
+    "freightPerPieceUSD": 0.35
+  },
+  "costing": {
+    "rawMaterial": 38.42,
+    "manufacturing": 24.5,
+    "finishingMaterial": 16.0,
+    "finishingLabour": 4.35,
+    "packingMaterial": 13.0,
+    "packingLabour": 5.35,
+    "freight": 8.94,
+    "testing": 8.0,
+    "overheads": 85.86,
+    "totalCost": 204.42
+  },
+  "export": {
+    "exportPriceUSD": 2.8,
+    "exchangeRate": 74,
+    "exportValueINR": 207.2,
+    "netMargin": 2.78,
+    "marginPercent": 1.34,
+    "status": "Low Profit"
+  }
+},
+{
+  "productCode": "BH363626952222",
+  "image": "images/BH363626952222.jpeg",
+  "buyer": "Walmart USA",
+  "workingDate": "2023-11-20",
+  "name": "Metal Drink Table With Black Marble",
+  "size": "9.5 x 9.5 x 22.0",
+  "program": 746,
+  "materials": ["Wood", "Stone", "Iron", "Composite Sand", "MDF"],
+  "finish": "Powder Coating",
+  "container": {
+    "masterSize": "11.25 x 11.25 x 24.25",
+    "qty": 1,
+    "freightPerPieceUSD": 4.64
+  },
+  "costing": {
+    "totalCost": 1037.12
+  },
+  "export": {
+    "exportPriceUSD": 14.5,
+    "exchangeRate": 74,
+    "exportValueINR": 1073.0,
+    "netMargin": 35.88,
+    "marginPercent": 3.34,
+    "status": "Profit"
+  }
+},
+
+{
+  "productCode": "DC25-56051",
+  "image": "images/DC25-56051.jpeg",
+  "buyer": "Target",
+  "department": "Target D-065",
+  "workingDate": "2023-05-16",
+  "name": "Braided Oval Tray",
+  "size": "16.25 x 9.5 x 2.75",
+  "program": 675,
+  "material": "Iron",
+  "materialWeightKg": 0.94,
+  "finish": "Warm Gold",
+  "container": {
+    "masterSize": "17.75 x 11.0 x 7.0",
+    "qty": 2,
+    "freightPerPieceUSD": 1.03
+  },
+  "costing": {
+    "totalCost": 532.98
+  },
+  "export": {
+    "exportPriceUSD": 7.6,
+    "exchangeRate": 68,
+    "exportValueINR": 516.8,
+    "netMargin": -16.18,
+    "status": "Loss"
+  }
 }
 
-
   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ]
