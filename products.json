@@ -1,77 +1,94 @@
 [
   {
-  "productCode": "DC24-47217",
-   "image": "images/DC24-47217.jpeg",
-  "buyer": "Target",
-  "department": "Target D-051",
-  "workingDate": "2022-12-29",
-  "name": "Bronze Wreath Hanger",
-  "size": "13.4 x 0.6 x 2.6",
-  "program": 432,
-  "material": "Iron",
-  "materialWeightKg": 0.12,
-  "finish": "Powder Coating",
-  "container": {
-    "masterSize": "17.0 x 6.75 x 5.5",
-    "qty": 6,
-    "freightPerPieceUSD": 0.16
+  "product_metadata": {
+    "product_id": "DC24-47217",
+    "product_name": "Bronze Wreath Hanger",
+    "image": "images/DC24-47217.jpeg",
+    "buyer": "Target",
+    "uom": "EA",
+    "total_weight_kg": 0.12,
+    "master_pack_qty": 6
   },
-  "costing": {
-    "rawMaterial": 7.68,
-    "manufacturing": 1.30,
-    "finishingMaterial": 5.52,
-    "finishingLabour": 2.33,
-    "packingMaterial": 8.83,
-    "packingLabour": 1.55,
-    "freight": 0.28,
-    "testing": 2.00,
-    "overheads": 26.32,
-    "totalCost": 57.60
-  },
-  "export": {
-    "exportPriceUSD": 0.58,
-    "exchangeRate": 68,
-    "exportValueINR": 39.44,
-    "netMargin": -18.16,
-    "status": "Loss"
+  "bom_data": [
+    {
+      "component_code": "DC24-47217CO",
+      "description": "IRON WREATH HANGER COLOUR COATED",
+      "quantity": 6,
+      "uom": "EA"
+    },
+    {
+      "component_code": "RM002517",
+      "description": "POWDER BASE B.NO-2612",
+      "quantity": 100,
+      "uom": "KG"
+    }
+  ],
+  "routing_and_pfd": [
+    { "step": "0010", "process": "MATERIAL RECEIVE", "work_center": "RECV401" },
+    { "step": "0020", "process": "EYELET PACKING", "work_center": "ELTU401" },
+    { "step": "0030", "process": "PACKING", "work_center": "PPAU401" }
+  ],
+  "mcp_and_qc": [
+    {
+      "operation": "Final Packing",
+      "characteristic": "No product damage",
+      "specification": "Reference Sample",
+      "control_method": "Visual",
+      "sampling": "Every Pcs"
+    }
+  ],
+  "financial_costing": {
+    "rm_cost_per_unit": 7.68,
+    "mfg_cost": 1.30,
+    "overhead_percent": 16,
+    "wastage_percent": 7,
+    "total_landed_cost": 57.61
   }
 },
 {
-  "productCode": "DC24-68011",
-  "image": "images/DC24-68011.jpeg",
-
-  "buyer": "Target",
-  "department": "Target D-002",
-  "workingDate": "2024-03-15",
-  "name": "Metal Holiday Accessories Organizer",
-  "size": "10.0 x 6.3 x 9.5",
-  "program": 432,
-  "material": "Iron",
-  "materialWeightKg": 1.89,
-  "finish": "Powder Coating",
-  "container": {
-    "masterSize": "14.0 x 11.5 x 11.75",
-    "qty": 2,
-    "freightPerPieceUSD": 1.43
+  "product_metadata": {
+    "product_id": "DC24-68011",
+    "product_name": "Metal Holiday Accessory Organizer",
+      "image": "images/DC24-68011.jpeg",
+    "buyer": "Target",
+    "uom": "EA",
+    "total_weight_kg": 1.89,
+    "master_pack_qty": 2
   },
-  "costing": {
-    "rawMaterial": 156.50,
-    "manufacturing": 65.00,
-    "finishingMaterial": 32.50,
-    "finishingLabour": 8.75,
-    "packingMaterial": 52.50,
-    "packingLabour": 10.71,
-    "freight": 2.50,
-    "testing": 1.00,
-    "overheads": 274.95,
-    "totalCost": 604.51
-  },
-  "export": {
-    "exportPriceUSD": 8.88,
-    "exchangeRate": 68,
-    "exportValueINR": 603.84,
-    "netMargin": -0.67,
-    "status": "Loss"
+  "bom_data": [
+    {
+      "component_code": "DC24-68011PC",
+      "description": "IRON BIG BOX POWDER COATED",
+      "quantity": 2,
+      "uom": "EA"
+    },
+    {
+      "component_code": "RM001704",
+      "description": "CR SHEET 0.71 MM IRON IF GRADE",
+      "quantity": 0.302,
+      "uom": "KG"
+    }
+  ],
+  "routing_and_pfd": [
+    { "step": "0010", "process": "MATERIAL RECEIVE", "work_center": "RECV401" },
+    { "step": "0020", "process": "FITTING", "work_center": "AFTU401" },
+    { "step": "0030", "process": "PACKING", "work_center": "PPAU401" }
+  ],
+  "mcp_and_qc": [
+    {
+      "operation": "Pre dispatch inspection",
+      "characteristic": "AQL Passed",
+      "specification": "SOP PDI DC/SOP/QA/40",
+      "control_method": "Measuring tape/vernier",
+      "sampling": "As per AQL"
+    }
+  ],
+  "financial_costing": {
+    "rm_cost_per_unit": 108.00,
+    "mfg_cost": 65.00,
+    "overhead_percent": 16,
+    "wastage_percent": 15,
+    "total_landed_cost": 604.37
   }
 },
 
